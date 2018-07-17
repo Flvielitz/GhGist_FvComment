@@ -17,6 +17,6 @@ Select a static QR Code and choose a Gist on GitHub to open and comment inside t
 Copy the URL representing the Gist. Example: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754 <br/>
 Paste the URL in the QR Code generator and create your QR Code
 
-Now run the App on a device and allow the Camera, to be able to scan the QR Code
+Now run the App on a device and allow the use of the Camera for scanning the QR Code
 
 Happy Comments

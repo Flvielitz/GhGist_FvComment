@@ -1,0 +1,21 @@
+PODS:
+  - OAuthSwift (1.2.2)
+
+DEPENDENCIES:
+  - OAuthSwift (from `https://github.com/OAuthSwift/OAuthSwift.git`)
+
+EXTERNAL SOURCES:
+  OAuthSwift:
+    :git: https://github.com/OAuthSwift/OAuthSwift.git
+
+CHECKOUT OPTIONS:
+  OAuthSwift:
+    :commit: de29b47b0624641c299cb748e7f16b394bc0b495
+    :git: https://github.com/OAuthSwift/OAuthSwift.git
+
+SPEC CHECKSUMS:
+  OAuthSwift: 27b34fe80b76b67cd8f45571e0be2432bc9f6de1
+
+PODFILE CHECKSUM: 6aa0e612487ab1e38aee8d3d02bce6970c4e8b73
+
+COCOAPODS: 1.5.0

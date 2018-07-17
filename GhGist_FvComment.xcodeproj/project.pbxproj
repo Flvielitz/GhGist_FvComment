@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1126411820FAA3B1008F69A3 /* GitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126411720FAA3B1008F69A3 /* GitAPI.swift */; };
+		1126411A20FAAF8C008F69A3 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126411920FAAF8C008F69A3 /* KeychainService.swift */; };
+		1126412320FADF46008F69A3 /* CommentsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126412120FADF46008F69A3 /* CommentsListVC.swift */; };
+		1126412420FADF46008F69A3 /* CommentsListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1126412220FADF46008F69A3 /* CommentsListVC.xib */; };
+		1126412C20FAE9BB008F69A3 /* CommentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126412A20FAE9BB008F69A3 /* CommentsCell.swift */; };
+		115F31A920FD905C00B14AE0 /* CommentsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 115F31A820FD905C00B14AE0 /* CommentsCell.xib */; };
+		117F2A3C20FB812F00B955A8 /* AddCommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F2A3A20FB812F00B955A8 /* AddCommentVC.swift */; };
+		117F2A3D20FB812F00B955A8 /* AddCommentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 117F2A3B20FB812F00B955A8 /* AddCommentVC.xib */; };
+		117F2A3F20FBA7AD00B955A8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F2A3E20FBA7AD00B955A8 /* Extensions.swift */; };
+		117F2A4120FC184D00B955A8 /* RoundShadowViewBezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117F2A4020FC184D00B955A8 /* RoundShadowViewBezier.swift */; };
+		11B8B57B20F967D600885167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8B57A20F967D600885167 /* AppDelegate.swift */; };
+		11B8B57D20F967D600885167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8B57C20F967D600885167 /* ViewController.swift */; };
+		11B8B58020F967D600885167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B8B57E20F967D600885167 /* Main.storyboard */; };
+		11B8B58220F967D700885167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B8B58120F967D700885167 /* Assets.xcassets */; };
+		11B8B58520F967D700885167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B8B58320F967D700885167 /* LaunchScreen.storyboard */; };
+		11B8B58D20F96EB400885167 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8B58C20F96EB400885167 /* QRCodeReader.swift */; };
+		11E8804920F98A1E00B3402B /* QRCodeReaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E8804820F98A1E00B3402B /* QRCodeReaderProtocol.swift */; };
+		5E45BB5524AC41A87BE5842C /* Pods_GhGist_FvComment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2816395E97ED0B9882412F /* Pods_GhGist_FvComment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F2816395E97ED0B9882412F /* Pods_GhGist_FvComment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GhGist_FvComment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1126411720FAA3B1008F69A3 /* GitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitAPI.swift; sourceTree = "<group>"; };
+		1126411920FAAF8C008F69A3 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		1126412120FADF46008F69A3 /* CommentsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsListVC.swift; sourceTree = "<group>"; };
+		1126412220FADF46008F69A3 /* CommentsListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsListVC.xib; sourceTree = "<group>"; };
+		1126412A20FAE9BB008F69A3 /* CommentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCell.swift; sourceTree = "<group>"; };
+		115F31A820FD905C00B14AE0 /* CommentsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentsCell.xib; sourceTree = "<group>"; };
+		117F2A3A20FB812F00B955A8 /* AddCommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentVC.swift; sourceTree = "<group>"; };
+		117F2A3B20FB812F00B955A8 /* AddCommentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddCommentVC.xib; sourceTree = "<group>"; };
+		117F2A3E20FBA7AD00B955A8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		117F2A4020FC184D00B955A8 /* RoundShadowViewBezier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundShadowViewBezier.swift; sourceTree = "<group>"; };
+		11B8B57720F967D600885167 /* GhGist_FvComment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhGist_FvComment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B8B57A20F967D600885167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11B8B57C20F967D600885167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11B8B57F20F967D600885167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11B8B58120F967D700885167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11B8B58420F967D700885167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11B8B58620F967D700885167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B8B58C20F96EB400885167 /* QRCodeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReader.swift; sourceTree = "<group>"; };
+		11E8804820F98A1E00B3402B /* QRCodeReaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderProtocol.swift; sourceTree = "<group>"; };
+		15FB22865DEFB913D22DDB95 /* Pods-GhGist_FvComment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhGist_FvComment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GhGist_FvComment/Pods-GhGist_FvComment.debug.xcconfig"; sourceTree = "<group>"; };
+		9B0E242F0796D8A6DE5739BA /* Pods-GhGist_FvComment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhGist_FvComment.release.xcconfig"; path = "Pods/Target Support Files/Pods-GhGist_FvComment/Pods-GhGist_FvComment.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B8B57420F967D600885167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E45BB5524AC41A87BE5842C /* Pods_GhGist_FvComment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1126412920FAE936008F69A3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1126412A20FAE9BB008F69A3 /* CommentsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		117F2A3720FB76E700B955A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1126412220FADF46008F69A3 /* CommentsListVC.xib */,
+				117F2A3B20FB812F00B955A8 /* AddCommentVC.xib */,
+				11B8B57E20F967D600885167 /* Main.storyboard */,
+				117F2A3820FB76EC00B955A8 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		117F2A3820FB76EC00B955A8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				115F31A820FD905C00B14AE0 /* CommentsCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		117F2A3920FB771B00B955A8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1126411920FAAF8C008F69A3 /* KeychainService.swift */,
+				11B8B58C20F96EB400885167 /* QRCodeReader.swift */,
+				1126411720FAA3B1008F69A3 /* GitAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		11B8B56E20F967D600885167 = {
+			isa = PBXGroup;
+			children = (
+				11B8B57920F967D600885167 /* GhGist_FvComment */,
+				11B8B57820F967D600885167 /* Products */,
+				78BC0E11E4711A0B5715BD90 /* Pods */,
+				98838E332C46AABD14CAC024 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11B8B57820F967D600885167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B8B57720F967D600885167 /* GhGist_FvComment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B8B57920F967D600885167 /* GhGist_FvComment */ = {
+			isa = PBXGroup;
+			children = (
+				117F2A3920FB771B00B955A8 /* Services */,
+				11B8B57C20F967D600885167 /* ViewController.swift */,
+				1126412120FADF46008F69A3 /* CommentsListVC.swift */,
+				117F2A3A20FB812F00B955A8 /* AddCommentVC.swift */,
+				1126412920FAE936008F69A3 /* Cells */,
+				117F2A3720FB76E700B955A8 /* Views */,
+				11E8804B20F98D9F00B3402B /* Support */,
+				11E8804720F98A0600B3402B /* Protocols */,
+			);
+			path = GhGist_FvComment;
+			sourceTree = "<group>";
+		};
+		11E8804720F98A0600B3402B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				11E8804820F98A1E00B3402B /* QRCodeReaderProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		11E8804B20F98D9F00B3402B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				117F2A4020FC184D00B955A8 /* RoundShadowViewBezier.swift */,
+				117F2A3E20FBA7AD00B955A8 /* Extensions.swift */,
+				11B8B57A20F967D600885167 /* AppDelegate.swift */,
+				11B8B58120F967D700885167 /* Assets.xcassets */,
+				11B8B58320F967D700885167 /* LaunchScreen.storyboard */,
+				11B8B58620F967D700885167 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		78BC0E11E4711A0B5715BD90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15FB22865DEFB913D22DDB95 /* Pods-GhGist_FvComment.debug.xcconfig */,
+				9B0E242F0796D8A6DE5739BA /* Pods-GhGist_FvComment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98838E332C46AABD14CAC024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F2816395E97ED0B9882412F /* Pods_GhGist_FvComment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B8B57620F967D600885167 /* GhGist_FvComment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B8B58920F967D700885167 /* Build configuration list for PBXNativeTarget "GhGist_FvComment" */;
+			buildPhases = (
+				92A837833178845D8AD0E98A /* [CP] Check Pods Manifest.lock */,
+				11B8B57320F967D600885167 /* Sources */,
+				11B8B57420F967D600885167 /* Frameworks */,
+				11B8B57520F967D600885167 /* Resources */,
+				48F740F02916A318524DB424 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GhGist_FvComment;
+			productName = GhGist_FvComment;
+			productReference = 11B8B57720F967D600885167 /* GhGist_FvComment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B8B56F20F967D600885167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Philliph;
+				TargetAttributes = {
+					11B8B57620F967D600885167 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 11B8B57220F967D600885167 /* Build configuration list for PBXProject "GhGist_FvComment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B8B56E20F967D600885167;
+			productRefGroup = 11B8B57820F967D600885167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B8B57620F967D600885167 /* GhGist_FvComment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B8B57520F967D600885167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117F2A3D20FB812F00B955A8 /* AddCommentVC.xib in Resources */,
+				11B8B58520F967D700885167 /* LaunchScreen.storyboard in Resources */,
+				11B8B58220F967D700885167 /* Assets.xcassets in Resources */,
+				115F31A920FD905C00B14AE0 /* CommentsCell.xib in Resources */,
+				1126412420FADF46008F69A3 /* CommentsListVC.xib in Resources */,
+				11B8B58020F967D600885167 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48F740F02916A318524DB424 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GhGist_FvComment/Pods-GhGist_FvComment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GhGist_FvComment/Pods-GhGist_FvComment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92A837833178845D8AD0E98A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GhGist_FvComment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B8B57320F967D600885167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E8804920F98A1E00B3402B /* QRCodeReaderProtocol.swift in Sources */,
+				117F2A4120FC184D00B955A8 /* RoundShadowViewBezier.swift in Sources */,
+				1126411820FAA3B1008F69A3 /* GitAPI.swift in Sources */,
+				1126412320FADF46008F69A3 /* CommentsListVC.swift in Sources */,
+				117F2A3C20FB812F00B955A8 /* AddCommentVC.swift in Sources */,
+				1126412C20FAE9BB008F69A3 /* CommentsCell.swift in Sources */,
+				117F2A3F20FBA7AD00B955A8 /* Extensions.swift in Sources */,
+				11B8B57D20F967D600885167 /* ViewController.swift in Sources */,
+				11B8B58D20F96EB400885167 /* QRCodeReader.swift in Sources */,
+				11B8B57B20F967D600885167 /* AppDelegate.swift in Sources */,
+				1126411A20FAAF8C008F69A3 /* KeychainService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11B8B57E20F967D600885167 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B8B57F20F967D600885167 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11B8B58320F967D700885167 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B8B58420F967D700885167 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11B8B58720F967D700885167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11B8B58820F967D700885167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B8B58A20F967D700885167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15FB22865DEFB913D22DDB95 /* Pods-GhGist_FvComment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GhGist_FvComment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FelipeV.GhGist-FvComment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11B8B58B20F967D700885167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0E242F0796D8A6DE5739BA /* Pods-GhGist_FvComment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GhGist_FvComment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FelipeV.GhGist-FvComment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B8B57220F967D600885167 /* Build configuration list for PBXProject "GhGist_FvComment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B8B58720F967D700885167 /* Debug */,
+				11B8B58820F967D700885167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B8B58920F967D700885167 /* Build configuration list for PBXNativeTarget "GhGist_FvComment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B8B58A20F967D700885167 /* Debug */,
+				11B8B58B20F967D700885167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B8B56F20F967D600885167 /* Project object */;
+}
